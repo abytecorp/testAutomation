@@ -46,6 +46,14 @@ The last command lets to get the report if all the tests passed as expected
   - headers: 
     * 'x-rapidapi-host': 'covid-19-data.p.rapidapi.com'
     * 'x-rapidapi-key': '7a0315cd52msh7f1b1b93e127f7cp19bb22jsn084ea8301339'
+
+- method: POST
+- url: https://reqres.in/api/users
+- body:
+    data: {
+        name: "paul rudd",
+        movies: ["I Love You Man", "Role Models"]
+    },
   
 ### Frameworks:
 - Cucumber
@@ -59,6 +67,9 @@ The last command lets to get the report if all the tests passed as expected
     - validate deaths superior number than 0
     - validate an correct latitude and longitude
     - create an POST assertion
+    
+    - create dto and interactions to post method
+    - validate asertion, response and status code ok
 
 ## Contributing
 Chiper Automation Tests Team
