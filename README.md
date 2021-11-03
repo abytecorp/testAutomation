@@ -9,7 +9,6 @@ You need to install:
 * IntelliJ Idea Community
 * [Java JDK 11](https://docs.aws.amazon.com/corretto/latest/corretto-11-ug/downloads-list.html)
 * [Maven](https://maven.apache.org/download.cgi) (please follow the steps in the documentation)
-* DBeaver (optional, management database access)
 
 ## Installation
 
@@ -48,11 +47,18 @@ The last command lets to get the report if all the tests passed as expected
     * 'x-rapidapi-host': 'covid-19-data.p.rapidapi.com'
     * 'x-rapidapi-key': '7a0315cd52msh7f1b1b93e127f7cp19bb22jsn084ea8301339'
   
+### Frameworks:
+- Cucumber
+- Java 11
+- Rest Assured o Serenity BDD( deseable)
+- Maven
+
 
 ### Asertions needed
     - validate 200 response asertion
     - validate deaths superior number than 0
     - validate an correct latitude and longitude
+    - create an POST assertion
 
 ## Contributing
 Chiper Automation Tests Team
